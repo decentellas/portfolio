@@ -1,0 +1,79 @@
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\bin\Debug\CatVentari.exe.config
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\bin\Debug\CatVentari.exe
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\bin\Debug\CatVentari.pdb
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.csproj.AssemblyReference.cache
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.csproj.SuggestedBindingRedirects.cache
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.Properties.Resources.resources
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.Vista.FormAltaUsuari.resources
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.Vista.FormBaixaUsuari.resources
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.Vista.FormConsultaUsuari.resources
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.Vista.FormLog.resources
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.FormLogin.resources
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.Vista.FormModificarUsuari.resources
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.Vista.FormUser.resources
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.csproj.GenerateResource.cache
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.csproj.CoreCompileInputs.cache
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.exe
+C:\Users\isard\Desktop\Per pujar al Github\CatVentari\obj\Debug\CatVentari.pdb
+C:\Users\isard\Desktop\appEscriptori\CatVentari\bin\Debug\CatVentari.exe.config
+C:\Users\isard\Desktop\appEscriptori\CatVentari\bin\Debug\CatVentari.exe
+C:\Users\isard\Desktop\appEscriptori\CatVentari\bin\Debug\CatVentari.pdb
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.csproj.AssemblyReference.cache
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.csproj.SuggestedBindingRedirects.cache
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Properties.Resources.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormAlertaProducteLogic.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormInformes.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormProveidorBaixa.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormProducteFisicAlta.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormProducteFisicBaixa.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormProducteFisicConsulta.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormProducteFisicModificacio.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormProducteLogicAlta.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormProducteLogicBaixa.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormProducteLogicConsulta.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormAltaUsuari.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormBaixaUsuari.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormConsultaUsuari.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormLog.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.FormLogin.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormModificarUsuari.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormProducteLogicModificacio.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormProveidorAlta.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormProveidorConsulta.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormProveidorModificacio.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.Vista.FormUser.resources
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.csproj.GenerateResource.cache
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.csproj.CoreCompileInputs.cache
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.exe
+C:\Users\isard\Desktop\appEscriptori\CatVentari\obj\Debug\CatVentari.pdb
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Properties.Resources.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormAlertaProducteLogic.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormInformes.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormProveidorBaixa.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormProducteFisicAlta.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormProducteFisicBaixa.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormProducteFisicConsulta.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormProducteFisicModificacio.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormProducteLogicAlta.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormProducteLogicBaixa.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormProducteLogicConsulta.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormUsuariAlta.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormUsuariBaixa.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormUsuariConsulta.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormLog.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.FormLogin.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormProducteLogicModificacio.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormProveidorAlta.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormProveidorConsulta.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormProveidorModificacio.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormUser.resources
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Projecte David\CatVentari\bin\Debug\CatVentari.exe.config
+C:\Users\PC\Desktop\Projecte David\CatVentari\bin\Debug\CatVentari.exe
+C:\Users\PC\Desktop\Projecte David\CatVentari\bin\Debug\CatVentari.pdb
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.exe
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.pdb
+C:\Users\PC\Desktop\Projecte David\CatVentari\obj\Debug\CatVentari.Vista.FormUsuariModificacio.resources

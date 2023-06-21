@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30239BD9-F7CA-49B6-96EF-7C3C6B3812CA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CatVentari</RootNamespace>
+    <AssemblyName>CatVentari</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controlador\ControllerAlert.cs" />
+    <Compile Include="Controlador\ControllerErrors.cs" />
+    <Compile Include="Controlador\ControllerForm.cs" />
+    <Compile Include="Controlador\ControllerProducteFisic.cs" />
+    <Compile Include="Controlador\ControllerProducteLogic.cs" />
+    <Compile Include="Controlador\ControllerReport.cs" />
+    <Compile Include="Controlador\ControllerTaula.cs" />
+    <Compile Include="Controlador\ControllerSession.cs" />
+    <Compile Include="Controlador\ControllerFileLog.cs" />
+    <Compile Include="Controlador\ControllerSocket.cs" />
+    <Compile Include="Controlador\ControllerUser.cs" />
+    <Compile Include="Model\ProducteFisic.cs" />
+    <Compile Include="Model\ProducteLogic.cs" />
+    <Compile Include="Model\Producte.cs" />
+    <Compile Include="Model\ModelSocket.cs" />
+    <Compile Include="Model\Usuari.cs" />
+    <Compile Include="Utilitats\ConfigReader.cs" />
+    <Compile Include="Utilitats\TextBoxManager.cs" />
+    <Compile Include="Utilitats\UIStyler.cs" />
+    <Compile Include="Utilitats\PanelManager.cs" />
+    <Compile Include="Utilitats\ToggleSwitch.cs" />
+    <Compile Include="Utilitats\Initialize.cs" />
+    <Compile Include="Utilitats\MessageBox.cs" />
+    <Compile Include="Utilitats\DateManager.cs" />
+    <Compile Include="Utilitats\Encryption.cs" />
+    <Compile Include="Utilitats\FormatDBString.cs" />
+    <Compile Include="Utilitats\Colors.cs" />
+    <Compile Include="Utilitats\Validation.cs" />
+    <Compile Include="Vista\FormAlertaProducteLogic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormAlertaProducteLogic.Designer.cs">
+      <DependentUpon>FormAlertaProducteLogic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormInformes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormInformes.Designer.cs">
+      <DependentUpon>FormInformes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormProveidorConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormProveidorConsulta.Designer.cs">
+      <DependentUpon>FormProveidorConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormProveidorBaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormProveidorBaixa.Designer.cs">
+      <DependentUpon>FormProveidorBaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormProveidorModificacio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormProveidorModificacio.Designer.cs">
+      <DependentUpon>FormProveidorModificacio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormProveidorAlta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormProveidorAlta.Designer.cs">
+      <DependentUpon>FormProveidorAlta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormProducteFisicBaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormProducteFisicBaixa.Designer.cs">
+      <DependentUpon>FormProducteFisicBaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormProducteFisicConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormProducteFisicConsulta.Designer.cs">
+      <DependentUpon>FormProducteFisicConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormProducteFisicModificacio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormProducteFisicModificacio.Designer.cs">
+      <DependentUpon>FormProducteFisicModificacio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormProducteFisicAlta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormProducteFisicAlta.Designer.cs">
+      <DependentUpon>FormProducteFisicAlta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormProducteLogicAlta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormProducteLogicAlta.Designer.cs">
+      <DependentUpon>FormProducteLogicAlta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormProducteLogicBaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormProducteLogicBaixa.Designer.cs">
+      <DependentUpon>FormProducteLogicBaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormProducteLogicConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormProducteLogicConsulta.Designer.cs">
+      <DependentUpon>FormProducteLogicConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormProducteLogicModificacio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormProducteLogicModificacio.Designer.cs">
+      <DependentUpon>FormProducteLogicModificacio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormUsuariAlta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormUsuariAlta.Designer.cs">
+      <DependentUpon>FormUsuariAlta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormUsuariBaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormUsuariBaixa.Designer.cs">
+      <DependentUpon>FormUsuariBaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormUsuariConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormUsuariConsulta.Designer.cs">
+      <DependentUpon>FormUsuariConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormLog.Designer.cs">
+      <DependentUpon>FormLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormLogin.designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormUsuariModificacio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormUsuariModificacio.Designer.cs">
+      <DependentUpon>FormUsuariModificacio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormUser.Designer.cs">
+      <DependentUpon>FormUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vista\FormAlertaProducteLogic.resx">
+      <DependentUpon>FormAlertaProducteLogic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormInformes.resx">
+      <DependentUpon>FormInformes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormProveidorBaixa.resx">
+      <DependentUpon>FormProveidorBaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormProducteFisicAlta.resx">
+      <DependentUpon>FormProducteFisicAlta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormProducteFisicBaixa.resx">
+      <DependentUpon>FormProducteFisicBaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormProducteFisicConsulta.resx">
+      <DependentUpon>FormProducteFisicConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormProducteFisicModificacio.resx">
+      <DependentUpon>FormProducteFisicModificacio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormProducteLogicAlta.resx">
+      <DependentUpon>FormProducteLogicAlta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormProducteLogicBaixa.resx">
+      <DependentUpon>FormProducteLogicBaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormProducteLogicConsulta.resx">
+      <DependentUpon>FormProducteLogicConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormUsuariAlta.resx">
+      <DependentUpon>FormUsuariAlta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormUsuariBaixa.resx">
+      <DependentUpon>FormUsuariBaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormUsuariConsulta.resx">
+      <DependentUpon>FormUsuariConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormLog.resx">
+      <DependentUpon>FormLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormUsuariModificacio.resx">
+      <DependentUpon>FormUsuariModificacio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormProducteLogicModificacio.resx">
+      <DependentUpon>FormProducteLogicModificacio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormProveidorAlta.resx">
+      <DependentUpon>FormProveidorAlta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormProveidorConsulta.resx">
+      <DependentUpon>FormProveidorConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormProveidorModificacio.resx">
+      <DependentUpon>FormProveidorModificacio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormUser.resx">
+      <DependentUpon>FormUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\Logo Dagejo Developers.png" />
+    <Content Include="TODO.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
